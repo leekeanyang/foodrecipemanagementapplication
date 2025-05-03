@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Management</string>
+
+    <!-- bottom nav bar -->
+    <string name="recipe_title">Recipe</string>
+    <string name="meal_plan_title">My Plan</string>
+    <string name="cart_title">Cart</string>
+    <string name="community_title">Community</string>
+
+    <!-- cart toolbar button descriptions (from old file) -->
+    <string name="sort">Sort</string>
+    <string name="archive">Archive</string>
+    <string name="add_item">Add item</string>
+    <string name="share">Share</string>
+    <string name="more">More</string>
+
+    <!-- about us section -->
+    <string name="about_us_content">
+        We’re here to make cooking simpler and more joyful. Designed for home cooks, meal preppers, and food lovers, our app streamlines meal planning, recipe organizing, and grocery shopping—all in one place.\n\n
+        We’re a team of food enthusiasts and tech minds who believe cooking should be creative, not chaotic. Let’s turn everyday meals into shared moments.\n\n
+        <i>Simplify. Cook. Connect.</i>
+    </string>
+
+    <!-- contact us section -->
+    <string name="contact_us">Contact Us</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="phone_icon_desc">Contact phone number</string>
+    <string name="email_icon_desc">Contact email address</string>
+    <string name="facebook_icon_desc">Visit our Facebook page</string>
+    <string name="instagram_icon_desc">Visit our Instagram profile</string>
+
+    <!-- terms and conditions -->
+    <string name="terms_agreement">I agree to the <u>Terms and Conditions</u></string>
+    <string name="terms_and_conditions_full_text">
+        <b>Terms and Conditions for Recipe Management</b>\n
+        Last Updated: 2025-03-03\n\n
+
+        <b>1. Acceptance of Terms</b>\n
+        By accessing or using the Recipe Management application ("the Service"), you agree to be bound by these Terms and Conditions. If you disagree with any part, you may not use the Service.\n\n
+
+        <b>2. Definitions</b>\n
+        "User": Any individual or entity using the Service.\n
+        "Content": Recipes, images or other materials uploaded to the Service.\n
+        "Services": All features, tools, and functionalities provided by the app.\n\n
+
+        <b>3. User Responsibilities</b>\n
+        <b>3.1 Account Registration</b>\n
+        Users must provide accurate information during registration.\n
+        You are responsible for maintaining account security and confidentiality.\n\n
+
+        <b>3.2 Content Guidelines</b>\n
+        You retain ownership of recipes/content you upload but grant Recipe Management a non-exclusive, royalty-free license to use, display, and modify such content for operational purposes.\n
+        Prohibited content includes:\n
+        • Recipes violating copyrights or intellectual property rights\n
+        • Offensive, defamatory, or illegal material\n
+        • Spam, commercial promotions, or malicious code\n\n
+
+        <b>3.3 Prohibited Actions</b>\n
+        • Reverse engineering, scraping, or unauthorized access\n
+        • Harassing other users or impersonating individuals\n\n
+
+        <b>4. Intellectual Property</b>\n
+        The Service (including logos, software, and design) is owned by Recipe Management Group.\n
+        User-created content remains their property but must comply with these Terms.\n\n
+
+        <b>5. Disclaimers</b>\n
+        <b>5.1 Recipe Accuracy</b>\n
+        Nutritional information and cooking times are provided "as-is". Users assume all risks related to dietary needs.\n\n
+
+        <b>5.2 Third-Party Content</b>\n
+        We are not responsible for external content or links.\n\n
+
+        <b>5.3 Service Availability</b>\n
+        The app is provided "as available" without reliability warranties.\n\n
+
+        <b>6. Limitation of Liability</b>\n
+        Recipe Management shall not be liable for:\n
+        • Damages from recipe preparation\n
+        • Data loss or business interruption\n
+        • Third-party actions\n\n
+
+        <b>7. Termination</b>\n
+        We reserve the right to suspend accounts for:\n
+        • Terms violations\n
+        • Inactivity exceeding 13 months\n\n
+
+        <b>8. Governing Law</b>\n
+        Governed by Malaysian law, excluding conflict of law principles.\n\n
+
+        <b>9. Changes to Terms</b>\n
+        Terms may be updated periodically. Continued use constitutes acceptance.\n\n
+
+        <b>10. Contact Us</b>\n
+        Recipe Management Group\n
+        contactus@email.com\n
+        +60 12-345 6789
+    </string>
+
+    <!-- search and recommended -->
+    <string name="search_hint">Search recipes...</string>
+    <string name="recommended">Recommended</string>
+    <string name="myrecipes">My Recipes</string>
+    <string name="see_all">See All</string>
+    <string name="no_results_found">No recipes found for your search</string>
+    <string name="recipe_image_desc">Recipe image</string>
+
+    <!-- general actions -->
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- meal plan -->
+    <string name="meal_plan_empty_text">No meals planned for this day yet. Tap + to add.</string>
+    <string name="add_recipe_to_meal_plan">Add recipe to meal plan</string>
+    <string name="collection_empty_for_meal_plan">Your collection is empty. Add recipes to your collection first.</string>
+    <string name="select_recipe">Select Recipe</string>
+    <string name="select_tag">Select Tag</string>
+    <string name="tag_breakfast">Breakfast</string>
+    <string name="tag_lunch">Lunch</string>
+    <string name="tag_dinner">Dinner</string>
+    <string name="tag_snack">Snack</string>
+    <string name="meal_entry_already_exists">This recipe with the same tag is already in the plan for this day.</string>
+    <string name="confirm_delete_meal_entry_title">Remove Recipe</string>
+    <string name="confirm_delete_meal_entry_message">Are you sure you want to remove %1$s (%2$s) from this day\'s meal plan?</string>
+    <string name="meal_plan_saved">Meal plan saved successfully.</string>
+
+    <!-- notes -->
+    <string name="rename">Rename</string>
+    <string name="notes_title">Notes</string>
+    <string name="notes_empty_text">No notes yet. Tap + to add one.</string>
+    <string name="add_note_desc">Add new note</string>
+    <string name="edit_note_title_desc">Edit note title</string>
+    <string name="delete_note_desc">Delete note</string>
+    <string name="delete_note_confirm_title">Delete Note?</string>
+    <string name="delete_note_confirm_message">Are you sure you want to delete \'%1$s\'?</string>
+    <string name="note_deleted_success">Note deleted</string>
+    <string name="rename_note_title">Rename Note</string>
+    <string name="note_renamed_success">Note renamed</string>
+    <string name="note_rename_failed">Failed to rename note</string>
+    <string name="note_title_empty">Title cannot be empty</string>
+    <string name="new_note_title">New Note</string>
+    <string name="edit_note_title">Edit Note</string>
+    <string name="error_loading_note">Error loading note</string>
+    <string name="note_title_hint">Title</string>
+    <string name="note_content_hint">Enter your note…</string>
+    <string name="save_note">Save Note</string>
+    <string name="note_empty_warning">Note is empty, cannot save.</string>
+    <string name="untitled_note">Untitled Note</string>
+    <string name="note_saved_success">Note saved</string>
+
+    <!-- chat -->
+    <string name="chat_title">Chat</string>
+    <string name="chat_message_hint">Type a message…</string>
+    <string name="send_button_desc">Send message</string>
+
+    <!-- meal plan generation -->
+    <string name="hint_target_calories">Target Daily Calories (e.g., 2000)</string>
+    <string name="hint_diet_optional">Diet Type (optional, e.g., vegetarian)</string>
+    <string name="hint_exclude_optional">Exclude Ingredients (optional, comma-separated)</string>
+    <string name="button_generate_plan">Generate Weekly Plan</string>
+    <string name="title_generate_meal_plan">Generate Meal Plan</string>
+    <string name="error_invalid_calories">Invalid calories format</string>
+    <string name="error_calories_required">Target calories are required</string>
+    <string name="error_api_failed">API request failed: %1$s</string>
+    <string name="error_generating_plan">Failed to generate plan</string>
+    <string name="error_network_failed">Network error: %1$s</string>
+    <string name="error_generating_plan_network">Network error generating plan</string>
+    <string name="no_plan_generated">No meal plan generated.</string>
+
+    <!-- community -->
+    <string name="open_community_actions_menu">Open community actions menu</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="create_new_recipe">Create New Recipe</string>
+    <string name="add_a_new_recipe">Add a new recipe</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_reply">Your Reply</string>
+    <string name="submit">Submit</string>
+    <string name="community_name">Community Name</string>
+    <string name="description">Description</string>
+    <string name="public_community">Public Community</string>
+    <string name="create">Create</string>
+    <string name="user_name_optional">User Name (Optional)</string>
+    <string name="your_question">Your Question</string>
+    <string name="no_questions_available">No questions available</string>
+    <string name="search_communities">Search communities</string>
+    <string name="no_communities_yet">No communities yet</string>
+    <string name="create_new_community">Create new community</string>
+    <string name="user_name">User Name</string>
+    <string name="question_content">Question content</string>
+    <string name="edit_question">Edit question</string>
+    <string name="replies">Replies:</string>
+    <string name="add_reply">Add Reply</string>
+    <string name="community_description">Community Description</string>
+    <string name="_0_recipes_0_questions">0 Recipes | 0 Questions</string>
+    <string name="edit_community">Edit community</string>
+    <string name="delete_community">Delete community</string>
+    <string name="reply_content">Reply content</string>
+    <string name="edit_reply">Edit reply</string>
+    <string name="delete_reply">Delete reply</string>
+
+    <string name="no_recipes_to_add">No recipes available to add (created or collected).</string>
+    <string name="recipes_no_titles">Cannot add recipes without titles.</string>
+    <string name="select_recipe_to_add">Select Recipe to Add</string>
+    <!-- additional user recipe handling -->
+    <string name="user_recipes_empty_for_meal_plan">You haven\'t created any recipes yet.</string>
+    <string name="user_recipes_no_titles">Cannot add recipes without titles.</string>
+    <string name="select_user_recipe">Select Your Recipe</string>
+    <string name="error_selecting_recipe">Error selecting recipe.</string>
+    <string name="error_finding_recipe_details">Could not find recipe details.</string>
+
+    <!-- shopping item category array (from old file) -->
+    <string-array name="category_array">
+        <item>Fruit</item>
+        <item>Vegetable</item>
+        <item>Dairy</item>
+        <item>Meat</item>
+        <item>Grain</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="mark_purchased">Mark as purchased</string>
+    <string name="edit_item">Edit item</string>
+</resources>

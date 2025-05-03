@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Login/Sign Up"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tab_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOG IN"
+                android:textSize="20sp"
+                android:paddingHorizontal="32dp"
+                android:textColor="@drawable/login_tab_text_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/tab_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:textSize="20sp"
+                android:paddingHorizontal="32dp"
+                android:textColor="@drawable/login_tab_text_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"/>
+
+            <View
+                android:id="@+id/indicator"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="@color/primaryDarkColor"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

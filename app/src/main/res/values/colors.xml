@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6C9BCF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="primaryDarkColor">#4A7BA6</color>
+    <color name="accentColor">#88C0B5</color>
+
+    <!-- Surface Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="textPrimary">#4A4A4A</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Button Colors -->
+    <color name="buttonPrimary">#88C0B5</color>
+    <color name="buttonPrimary_20">#3388C0B5</color>
+
+    <!-- Material 3 Required Colors -->
+    <color name="colorSecondary">#FFA726</color>
+    <color name="colorTertiary">#66BB6A</color>
+    <color name="colorError">#EF5350</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Utility Colors -->
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="dividerColor">#E0E0E0</color>
+
+    <color name="gray">#9E9E9E</color>
+    <color name="light_gray">#DADCE0</color>
+    <color name="your_selected_color">#2196F3</color>
+    <color name="your_unselected_color">#757575</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_600">#757575</color>
+
+    <color name="errorColor">#FF0000</color>
+    <color name="placeholderColor">#EEEEEE</color>
+
+    <color name="purple_500">#6200EE</color>
+
+    <!-- <color name="selected_item_bg">#FFDDDDDD</color> -->
+    <color name="selected_item_bg">#FFE0B2</color>
+
+    <!-- Light grey for un-ticked -->
+    <color name="tick_default">#B0B0B0</color>
+    <!-- Now red for ticked -->
+    <color name="tick_selected">#F44336</color>
+
+</resources>

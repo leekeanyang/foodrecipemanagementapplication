@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_item_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edit_item_metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Metric (grams, pieces, etc.)"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_item_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Category"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_item_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Notes"
+        android:inputType="text"/>
+</LinearLayout>
